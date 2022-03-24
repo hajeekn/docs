@@ -1,0 +1,16 @@
+{
+  "name": "wexagonal_doc",
+  "version": "0.0.0-beta-1",
+  "description": "Wexagonal文档",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+
+"author": "",
+"license": "ISC",
+"devDependencies": {
+  "vuepress": "^1.9.7"
+}
+}
