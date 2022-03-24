@@ -15,13 +15,15 @@ module.exports = {
         '@vuepress/back-to-top': true
     },
     themeConfig: {
-        repo: 'Wexagonal/doc',
+        repo: 'Wexagonal/docs',
         repoLabel: '查看源码',
         docsDir: 'docs',
+        branch: 'main',
         editLinks: true,
         editLinkText: '帮助我改善此页面！',
         lastUpdated: '上次更新',
         nav: [
+            { text: '开始', link: '/start' },
             {
                 text: '主页',
                 link: '/',
