@@ -42,8 +42,8 @@ module.exports = {
                 ]
             },
             {
-                text: '故障排查',
-                link: '/check/',
+                text: '故障解析',
+                link: 'https://translate.wexa.top',
             },
             { text: 'Github', link: 'https://www.github.com/Wexagonal/Wexagonal' },
         ],
