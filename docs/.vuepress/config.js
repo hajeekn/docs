@@ -18,9 +18,6 @@ module.exports = {
         repo: 'Wexagonal/docs',
         repoLabel: '查看源码',
         docsDir: 'docs',
-        branch: 'main',
-        editLinks: true,
-        editLinkText: '帮助我改善此页面！',
         lastUpdated: '上次更新',
         nav: [
             { text: '开始', link: '/start' },
@@ -39,7 +36,21 @@ module.exports = {
                     { text: 'Vercel', link: '/deploy/vercel' }
                 ]
             },
-            { text: 'Github', link: 'https://www.github.com/Wexagonal/Wexagonal' },
+            {
+                text: '配置',
+                items: [
+                    { text: '数据库配置', link: '/config/db' },
+                    {
+                        text: '主程序配置', items: [
+                            { text: '基础配置', link: '/config/main/basic' },
+                            { text: 'Hexo配置', link: '/config/main/hexo' },
+                            { text: '图床配置', link: '/config/main/img' }
+                        ]
+                    }
+                ]
+
+            },
+            { text: '公共面板', link: 'https://dash.wexa.top' },
         ],
     }
 }

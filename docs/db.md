@@ -61,3 +61,11 @@
 复制地址串,**记得替换`<password>`为第四步写入的密码**,保管好地址串!
 
 ![](https://npm.elemecdn.com/chenyfan-os@0.0.0-r15/10.jpg)
+
+其格式应该如下:
+
+```
+mongodb+srv://<username>:<password>@xxx.mongodb.net/xxx?xxx=xxxx
+```
+
+保留这一串uri,进入[部署](/deploy)开始部署Wexgaonal主程序.

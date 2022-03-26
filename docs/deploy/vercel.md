@@ -24,7 +24,7 @@
 
 ![](https://npm.elemecdn.com/chenyfan-os@0.0.0-r16/4.jpg)
 
-4. 部署完成了!登陆前端公共面板<https://dash.wexa.top>完成数据库导入,获取文本框内内容
+4. 主程序部署已完成,接下来请前往[配置 - 数据库配置](/config/db)获取配置串,以下述方式添加
 
 ![](https://npm.elemecdn.com/chenyfan-os@0.0.0-r16/5.jpg)
 
