@@ -19,6 +19,8 @@ module.exports = {
         repoLabel: '查看源码',
         docsDir: 'docs',
         lastUpdated: '上次更新',
+        logo: 'https://npm.elemecdn.com/wexagonal_icon',
+        sidebar: 'auto',
         nav: [
             { text: '开始', link: '/start' },
             {
@@ -51,6 +53,11 @@ module.exports = {
 
             },
             { text: '公共面板', link: 'https://dash.wexa.top' },
+            {
+                text: '故障解析',
+                link: 'https://translate.wexa.top',
+            },
+            { text: 'Github', link: 'https://www.github.com/Wexagonal/Wexagonal' },
         ],
     }
 }
